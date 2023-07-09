@@ -1,0 +1,51 @@
+/* BoxList styles */
+.box-list {
+    text-align: center;
+  }
+  
+  .box-list h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Box styles */
+  .box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 10px;
+  }
+  
+  /* NewBoxForm styles */
+  .new-box-form {
+    margin-top: 20px;
+  }
+  
+  .new-box-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .new-box-form input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .new-box-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .new-box-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .new-box-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
